@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hello</title>
+
+    <script  type="text/javascript">
+        function myFunction() {
+        // We can get the token from the "access_token" query
+        // param, available in the browsers "location" global
+        const query = window.location.search.substring(1)
+        const token = query.split('access_token=')[1]
+        // Call the user info API using the fetch browser library
+        fetch('https://api.github.com/user/repos', {
+            headers: {
+                // Include the token in the Authorization header
+                Authorization: 'token ' + token
+            }
+        })
+        // Parse the response as JSON
+            .then(res => res.json()
+            )
+            .then(res => {
+                console.log(res);
+                // Once we get the response (which has many fields)
+                // Documented here: https://developer.github.com/v3/users/#get-the-authenticated-user
+                // Write "Welcome <user name>" to the documents body
+
+                var i;
+                for (i = 0; i < 10; i++) {
+                    const nameNode = document.createTextNode(`Url is, ${res[i].html_url}`)
+                    const fullName = document.createTextNode(`Repository name is ,${res[0].full_name}`)
+                    const language = document.createTextNode(`Language used is is ,${res[0].language}`)
+
+                    document.body.appendChild(nameNode)
+                    document.body.appendChild(fullName)
+                    document.body.appendChild(language)
+
+                    let url2 = res[0].html_url.toString()
+
+                    var ele = document.createElement("DIV").innerHTML.bold()
+
+
+                    var btn = document.createElement("BUTTON");   // Create a <button> element
+                    btn.innerHTML = "CLICK ME";
+                   //// btn.onClick=res[i].html_url// Insert text
+                        ////plus.onclick = function(){updateResult('+');};
+                    document.body.appendChild(btn);
+                    ////document.body.innerHTML = "<a href=url2> " + "this is a test" + "</a>"
+                    //
+                    // //
+                    // let full_Name = res[0].full_name.toString()
+                    // // let Language = res[0].language
+
+                    // // document.body.innerHTML = "<a href='url2'> " + "this is a test" + "</a>"
+                    // // document.body.innerHTML = "<a href='url2'> " + "this is a test" + "</a>"
+                    //
+                    // document.getElementById('test-id').href = url2
+
+
+                    //var x= document.getElementById("test");
+                    //    x.setAttribute("href",url2);
+
+                }
+
+            })}
+    </script>
+
+</head>
+
+<body>
+<div name ="div2">profile
+    <button onclick="myFunction()">list git repositories</button>
+</div>
+<a name="test" >testing</a>
+<p name="p1"></p>
+</body>
+
+
+
+</html>
