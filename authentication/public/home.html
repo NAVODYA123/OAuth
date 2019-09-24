@@ -5,8 +5,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Hello</title>
+    <title>View User repository information</title>
 
+
+    <link rel="icon" href="img/fav-icon.png" type="image/x-icon" />
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Sierra</title>
+
+    <!-- Icon css link -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Rev slider css -->
+    <link href="vendors/revolution/css/settings.css" rel="stylesheet">
+    <link href="vendors/revolution/css/layers.css" rel="stylesheet">
+    <link href="vendors/revolution/css/navigation.css" rel="stylesheet">
+
+    <!-- Extra plugin css -->
+    <link href="vendors/owl-carousel/owl.carousel.min.css" rel="stylesheet">
+
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
     <script  type="text/javascript">
         function myFunction() {
         // We can get the token from the "access_token" query
@@ -25,60 +45,91 @@
             )
             .then(res => {
                 console.log(res);
+
                 // Once we get the response (which has many fields)
                 // Documented here: https://developer.github.com/v3/users/#get-the-authenticated-user
                 // Write "Welcome <user name>" to the documents body
 
+
+
                 var i;
-                for (i = 0; i < 10; i++) {
+                var count = Object.keys(res).length;
+                for (i = 0; i < count; i++) {
                     const nameNode = document.createTextNode(`Url is, ${res[i].html_url}`)
-                    const fullName = document.createTextNode(`Repository name is ,${res[0].full_name}`)
+                    const fullName = document.createTextNode(`Repository name is ,${res[0].name}`)
                     const language = document.createTextNode(`Language used is is ,${res[0].language}`)
 
-                    document.body.appendChild(nameNode)
-                    document.body.appendChild(fullName)
-                    document.body.appendChild(language)
-
-                    let url2 = res[0].html_url.toString()
-
-                    var ele = document.createElement("DIV").innerHTML.bold()
+                   // document.body.appendChild(nameNode)
+                    //document.body.appendChild(fullName)
+                   // document.body.appendChild(language)
 
 
-                    var btn = document.createElement("BUTTON");   // Create a <button> element
-                    btn.innerHTML = "CLICK ME";
-                   //// btn.onClick=res[i].html_url// Insert text
-                        ////plus.onclick = function(){updateResult('+');};
-                    document.body.appendChild(btn);
-                    ////document.body.innerHTML = "<a href=url2> " + "this is a test" + "</a>"
-                    //
-                    // //
-                    // let full_Name = res[0].full_name.toString()
-                    // // let Language = res[0].language
-
-                    // // document.body.innerHTML = "<a href='url2'> " + "this is a test" + "</a>"
-                    // // document.body.innerHTML = "<a href='url2'> " + "this is a test" + "</a>"
-                    //
-                    // document.getElementById('test-id').href = url2
+                    var j = res[i].html_url;
+                    var n=res[i].name;
+                    var l=res[i].language;
+                    var o = res[i].owner.login;
 
 
-                    //var x= document.getElementById("test");
-                    //    x.setAttribute("href",url2);
+                     var url3 =JSON.stringify(j);
+                    var name =JSON.stringify(n);
+                    var lang =JSON.stringify(l);
+                    var owner =JSON.stringify(o);
+
+
+                    // console.log('before trim',url3);
+                    // url3.trim();
+                    // console.log('after trim',url3);
+
+                    //////let url2 = res[0].html_url.toString()
+                   ///// var url3 =res[i].html_url.
+
+                    var link2 =  document.createElement('a');
+                    link2.id = "url3";
+                    link2.innerHTML = url3;
+                    link2.setAttribute("href",j)
+                    document.body.appendChild(link2)
+
+                    var reponame = document.createElement('div');
+                    reponame.id = "name";
+                    reponame.innerHTML="repository Name is :"+name;
+                    reponame.style.cssText== 'position:absolute;top:300px;left:300px;width:200px;height:200px;-moz-border-radius:100px;border:1px  solid #ddd;-moz-box-shadow: 0px 0px 8px  #fff;display:none;';
+                    document.body.appendChild(reponame)
+
+                    var repolang = document.createElement('div');
+                    repolang.id = "lang";
+                    repolang.innerHTML= "Mainly used Language in this repository is :"+lang;
+                    repolang.style.cssText== 'position:absolute;top:300px;left:300px;width:200px;height:200px;-moz-border-radius:100px;border:1px  solid #ddd;-moz-box-shadow: 0px 0px 8px  #fff;display:none;';
+                    document.body.appendChild(repolang)
+
+                    var repoowner = document.createElement('div');
+                    repoowner.id = "owner";
+                    repoowner.innerHTML="Owner of this repository is :"+owner;
+                    repoowner.style.cssText== 'position:absolute;top:300px;left:300px;width:200px;height:200px;-moz-border-radius:100px;border:1px  solid #ddd;-moz-box-shadow: 0px 0px 8px  #fff;display:none;';
+                    document.body.appendChild(repoowner)
+
+
+
+                    ///document.getElementById("div2").appendChild(obj);
+
+
+
 
                 }
 
-            })}
+            })
+
+
+
+        }
     </script>
 
 </head>
 
-<body>
-<div name ="div2">profile
-    <button onclick="myFunction()">list git repositories</button>
+<body body style="background-image:url(img/home-slider/slider-bg-1.png); background-repeat: no-repeat;" >
+<div name ="div2" class="bd-callout"style ="margin-top: 50px; margin-right: 50px; margin-bottom: 1000px; margin-left: 800px; background-color: transparent;" >
+    <h4>OAuth Authentication demo app</h4>
+    <button class="btn submit_btn form-control" onclick="myFunction()">List GitHub Repositories of User </button>
 </div>
-<a name="test" >testing</a>
-<p name="p1"></p>
 </body>
-
-
 
 </html>

@@ -2,7 +2,222 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a97cb49-59d2-4273-97df-cfd287fcdbcc" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/authentication/public/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/css/responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/css/style.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/img/3d-shap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/img/3d-slider-shap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/img/add.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/img/banner/banner-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/img/blog/blog-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/img/blog/blog-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/img/blog/blog-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/img/blog/blog-author.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/img/comment/comment-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/img/comment/comment-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/img/fav-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/img/footer-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/img/footer-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/img/home-slider/slider-bg-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/img/home-slider/slider-m-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/img/icon/f-icon-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/img/icon/f-icon-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/img/icon/f-icon-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/img/icon/f-icon-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/img/icon/f-icon-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/img/icon/f-icon-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/img/icon/quote-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/img/icon/title-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/img/icon/video-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/img/instagram/ins-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/img/instagram/ins-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/img/instagram/ins-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/img/instagram/ins-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/img/instagram/ins-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/img/instagram/ins-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/img/instagram/ins-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/img/instagram/ins-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/img/instagram/right-instagram/r-in-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/img/instagram/right-instagram/r-in-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/img/instagram/right-instagram/r-in-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/img/instagram/right-instagram/r-in-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/img/instagram/right-instagram/r-in-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/img/instagram/right-instagram/r-in-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/img/iphone4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/img/popup-photo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/img/portfolio/ms-portfolio/ms-p-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/img/portfolio/ms-portfolio/ms-p-10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/img/portfolio/ms-portfolio/ms-p-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/img/portfolio/ms-portfolio/ms-p-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/img/portfolio/ms-portfolio/ms-p-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/img/portfolio/ms-portfolio/ms-p-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/img/portfolio/ms-portfolio/ms-p-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/img/portfolio/ms-portfolio/ms-p-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/img/portfolio/ms-portfolio/ms-p-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/img/portfolio/ms-portfolio/ms-p-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/img/service-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/img/team/people/people-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/img/team/people/people-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/img/team/people/people-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/img/team/people/people-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/img/team/people/people-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/img/testimonials/testi-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/img/testimonials/testi-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/img/testimonials/testi-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/img/world-map.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/js/circle-active.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/js/contact.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/js/gmaps.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/js/jquery-3.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/js/jquery.form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/js/jquery.validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/js/smoothscroll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/js/theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/scss/_banner.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/scss/_blog.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/scss/_button.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/scss/_chart.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/scss/_contact.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/scss/_feature.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/scss/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/scss/_header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/scss/_portfolio.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/scss/_predefin.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/scss/_slider.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/scss/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/circle-bar/circle-progress.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/circle-bar/plugins.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/counterup/apear.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/counterup/countto.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/counterup/jquery.counterup.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/counterup/jquery.waypoints.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/isotope/imagesloaded.pkgd.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/isotope/isotope.pkgd.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/magnify-popup/jquery.magnific-popup.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/magnify-popup/magnific-popup.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/owl-carousel/owl.carousel.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/owl-carousel/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/progress/circle-progress.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/progress/circularprogress.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/progress/circularprogress.jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/assets/coloredbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/assets/gridtile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/assets/gridtile_3x3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/assets/gridtile_3x3_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/assets/gridtile_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/assets/loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/assets/sources/fb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/assets/sources/fr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/assets/sources/ig.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/assets/sources/post.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/assets/sources/revolution_slide1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/assets/sources/revolution_slide2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/assets/sources/tw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/assets/sources/vm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/assets/sources/wc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/assets/sources/yt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/assets/svg/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/assets/svg/svg.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/css/closedhand.cur" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/css/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/css/layers.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/css/navigation-skins/ares.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/css/navigation-skins/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/css/navigation-skins/dione.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/css/navigation-skins/erinyen.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/css/navigation-skins/gyges.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/css/navigation-skins/hades.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/css/navigation-skins/hebe.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/css/navigation-skins/hephaistos.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/css/navigation-skins/hermes.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/css/navigation-skins/hesperiden.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/css/navigation-skins/metis.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/css/navigation-skins/persephone.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/css/navigation-skins/uranus.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/css/navigation-skins/zeus.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/css/navigation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/css/openhand.cur" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/css/settings-ver.5.3.1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/css/settings.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/fonts/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/fonts/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/fonts/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/fonts/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/fonts/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/fonts/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/fonts/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/fonts/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/fonts/font-awesome/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/fonts/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/fonts/pe-icon-7-stroke/css/helper.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/fonts/pe-icon-7-stroke/css/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/fonts/pe-icon-7-stroke/fonts/Pe-icon-7-stroke.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/fonts/pe-icon-7-stroke/fonts/Pe-icon-7-stroke.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/fonts/pe-icon-7-stroke/fonts/Pe-icon-7-stroke.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/fonts/pe-icon-7-stroke/fonts/Pe-icon-7-stroke.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/fonts/pe-icon-7-stroke/fonts/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/fonts/pe-icon-7-stroke/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/fonts/revicons/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/fonts/revicons/revicons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/fonts/revicons/revicons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/fonts/revicons/revicons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/fonts/revicons/revicons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/info.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/js/extensions/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/js/extensions/revolution.extension.actions.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/js/extensions/revolution.extension.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/js/extensions/revolution.extension.kenburn.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/js/extensions/revolution.extension.layeranimation.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/js/extensions/revolution.extension.migration.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/js/extensions/revolution.extension.navigation.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/js/extensions/revolution.extension.parallax.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/js/extensions/revolution.extension.slideanims.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/js/extensions/revolution.extension.video.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/js/extensions/source/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/js/extensions/source/revolution.extension.actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/js/extensions/source/revolution.extension.carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/js/extensions/source/revolution.extension.kenburn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/js/extensions/source/revolution.extension.layeranimation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/js/extensions/source/revolution.extension.migration.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/js/extensions/source/revolution.extension.navigation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/js/extensions/source/revolution.extension.parallax.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/js/extensions/source/revolution.extension.slideanims.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/js/extensions/source/revolution.extension.video.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/js/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/js/jquery.themepunch.enablelog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/js/jquery.themepunch.revolution.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/js/jquery.themepunch.tools.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/js/source/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/js/source/jquery.themepunch.enablelog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/js/source/jquery.themepunch.revolution.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/js/source/jquery.themepunch.tools.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/php/facebook/class-facebook.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/php/flickr/class-flickr.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/php/instagram/class-instagram.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/php/twitter/RestApi.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/php/twitter/class-twitter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/php/twitter/connection/Application.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/php/twitter/connection/ConnectionAbstract.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/php/twitter/connection/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/php/vimeo/class-vimeo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/public/vendors/revolution/php/youtube/class-youtube.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentication/public/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/authentication/public/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentication/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/authentication/public/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,8 +243,13 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/authentication/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="29">
+              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+              <folding>
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -46,8 +266,12 @@
       <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/authentication/public/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="53" column="25" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
+            <state relative-caret-position="254">
+              <caret line="130" column="100" selection-start-line="130" selection-start-column="100" selection-end-line="130" selection-end-column="100" />
+              <folding>
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -78,9 +302,9 @@
         <option value="$PROJECT_DIR$/authentication/node_modules/home.html" />
         <option value="$PROJECT_DIR$/authentication/home.html" />
         <option value="$PROJECT_DIR$/authentication/frontend/demo/src/App.js" />
-        <option value="$PROJECT_DIR$/authentication/public/index.html" />
         <option value="$PROJECT_DIR$/authentication/index.js" />
         <option value="$PROJECT_DIR$/authentication/package.json" />
+        <option value="$PROJECT_DIR$/authentication/public/index.html" />
         <option value="$PROJECT_DIR$/authentication/public/home.html" />
       </list>
     </option>
@@ -99,7 +323,7 @@
       <path value="$PROJECT_DIR$/authentication/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="433" />
     <option name="y" value="29" />
     <option name="width" value="772" />
@@ -124,6 +348,12 @@
               <item name="Git-OAuth-" type="462c0819:PsiDirectoryNode" />
               <item name="authentication" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Git-OAuth-" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Git-OAuth-" type="462c0819:PsiDirectoryNode" />
+              <item name="authentication" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -138,11 +368,12 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\my documents2\AA SLIIT\SLIIT year4-semester2\SSD\ssdProject\authentication\src" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\my documents2\AA SLIIT\SLIIT year4-semester2\SSD\ssdProject\authentication\public" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\my documents2\AA SLIIT\SLIIT year4-semester2\SSD\Assignment2\Git-OAuth-\authentication\public" />
+      <recent name="F:\my documents2\AA SLIIT\SLIIT year4-semester2\SSD\ssdProject\authentication\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -170,18 +401,18 @@
       <workItem from="1569303960582" duration="2258000" />
       <workItem from="1569306303141" duration="26530000" />
       <workItem from="1569341184286" duration="5599000" />
-      <workItem from="1569376506382" duration="260000" />
+      <workItem from="1569376506382" duration="16264000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34647000" />
+    <option name="totallyTimeSpent" value="50651000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13388805" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13388805" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
@@ -189,7 +420,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Mongo Explorer" order="3" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.15016502" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.20132013" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -219,6 +450,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -233,6 +469,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="901">
           <caret line="53" column="25" lean-forward="true" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -297,6 +537,9 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/authentication/public/scss/_blog.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/authentication/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -306,15 +549,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/authentication/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="29">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/authentication/public/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="53" column="25" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
+        <state relative-caret-position="254">
+          <caret line="130" column="100" selection-start-line="130" selection-start-column="100" selection-end-line="130" selection-end-column="100" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
